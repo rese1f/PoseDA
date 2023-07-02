@@ -1,5 +1,9 @@
 # PoseDA
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/cross-domain-3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/cross-domain-3d-human-pose-estimation-on-3dpw?p=global-adaptation-meets-local-generalization)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/cross-domain-3d-human-pose-estimation-on-mpi)](https://paperswithcode.com/sota/cross-domain-3d-human-pose-estimation-on-mpi?p=global-adaptation-meets-local-generalization)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/3d-human-pose-estimation-in-limited-data-on)](https://paperswithcode.com/sota/3d-human-pose-estimation-in-limited-data-on?p=global-adaptation-meets-local-generalization)
+
 Official code of [Global Adaptation meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation](https://arxiv.org/abs/2303.16456). Here I provide the **core code** for the proposed method, which can be easily merged into any existing code framework.
 
 ## Global Position Alignment
