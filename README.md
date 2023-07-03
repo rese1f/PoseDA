@@ -5,7 +5,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/3d-human-pose-estimation-in-limited-data-on)](https://paperswithcode.com/sota/3d-human-pose-estimation-in-limited-data-on?p=global-adaptation-meets-local-generalization)
 
 > Global Adaptation meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation  
-> [Wenhao Chai](https://rese1f.github.io/)<sup>\*</sup>, [Zhongyu Jiang](https://zhyjiang.github.io/), Jenq-Neng Hwang, Gaoang Wang  
+> [Wenhao Chai](https://rese1f.github.io/), [Zhongyu Jiang](https://zhyjiang.github.io/), Jenq-Neng Hwang, Gaoang Wang  
 > arXiv 2023.
 
 Here I provide the **core code** for the proposed method, which can be easily merged into any existing code framework.
