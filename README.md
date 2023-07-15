@@ -6,7 +6,7 @@
 
 > Global Adaptation meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation  
 > [Wenhao Chai](https://rese1f.github.io/), [Zhongyu Jiang](https://zhyjiang.github.io/), Jenq-Neng Hwang, Gaoang Wang  
-> arXiv 2023.
+> ICCV 2023.
 
 Here I provide the **core code** for the proposed method, which can be easily merged into any existing code framework.
 
