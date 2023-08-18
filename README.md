@@ -1,12 +1,9 @@
 # PoseDA
-[![](http://img.shields.io/badge/cs.CV-arXiv%3A2303.16456-B31B1B.svg)](https://arxiv.org/abs/2303.16456)\
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/cross-domain-3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/cross-domain-3d-human-pose-estimation-on-3dpw?p=global-adaptation-meets-local-generalization)\
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/cross-domain-3d-human-pose-estimation-on-mpi)](https://paperswithcode.com/sota/cross-domain-3d-human-pose-estimation-on-mpi?p=global-adaptation-meets-local-generalization)\
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/3d-human-pose-estimation-in-limited-data-on)](https://paperswithcode.com/sota/3d-human-pose-estimation-in-limited-data-on?p=global-adaptation-meets-local-generalization)
+[![](http://img.shields.io/badge/cs.CV-arXiv%3A2303.16456-B31B1B.svg)](https://arxiv.org/abs/2303.16456)
 
 > Global Adaptation meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation  
 > [Wenhao Chai](https://rese1f.github.io/), [Zhongyu Jiang](https://zhyjiang.github.io/), Jenq-Neng Hwang, Gaoang Wang  
-> ICCV 2023.
+> ICCV 2023
 
 Here I provide the **core code** for the proposed method, which can be easily merged into any existing code framework.
 
@@ -63,6 +60,10 @@ def gpa(source_3d, target_2d, camera_params):
 ```
 
 ## Results
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/cross-domain-3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/cross-domain-3d-human-pose-estimation-on-3dpw?p=global-adaptation-meets-local-generalization)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/cross-domain-3d-human-pose-estimation-on-mpi)](https://paperswithcode.com/sota/cross-domain-3d-human-pose-estimation-on-mpi?p=global-adaptation-meets-local-generalization)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-adaptation-meets-local-generalization/3d-human-pose-estimation-in-limited-data-on)](https://paperswithcode.com/sota/3d-human-pose-estimation-in-limited-data-on?p=global-adaptation-meets-local-generalization)
 
 We show performance boosting in various backbone (mlp, conv, gcn). Source domain: Human3.6M, target domain: MPI-INF-3DHP.
 
