@@ -1,9 +1,9 @@
 # PoseDA
 [![](http://img.shields.io/badge/cs.CV-arXiv%3A2303.16456-B31B1B.svg)](https://arxiv.org/abs/2303.16456)
 
-> Global Adaptation meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation  
-> [Wenhao Chai](https://rese1f.github.io/), [Zhongyu Jiang](https://zhyjiang.github.io/), Jenq-Neng Hwang, Gaoang Wang  
-> ICCV 2023
+> **Global Adaptation meets Local Generalization: Unsupervised Domain Adaptation for 3D Human Pose Estimation**    
+> Wenhao Chai, Zhongyu Jiang, Jenq-Neng Hwang, Gaoang Wang✉️  
+> _ICCV 2023_
 
 Here I provide the **core code** for the proposed method, which can be easily merged into any existing code framework.
 
@@ -69,13 +69,13 @@ We show performance boosting in various backbone (mlp, conv, gcn). Source domain
 
 | Method | MPJPE ($\downarrow$)  | PCK ($\uparrow$) | AUC ($\uparrow$) |
 |-|-|-|-|
-|SemGCN [1] | 95.96 | 80.68 | 48.48 |
+|SemGCN | 95.96 | 80.68 | 48.48 |
 |+ GPA | 86.56 (-9.4) | 83.85 (+3.2) | 50.98 (+2.5) |
-|SimpleBaseline [2] | 81.23 | 85.85  | 53.95|
+|SimpleBaseline | 81.23 | 85.85  | 53.95|
 |+ GPA | 69.19 (-12.0) | 89.90 (+4.1) | 58.50 (+4.6) |
-|ST-GCN [3] | 81.19 | 85.92 | 53.78 |
+|ST-GCN | 81.19 | 85.92 | 53.78 |
 |+ GPA | 74.41 (-6.8) | 88.58 (+2.7) | 55.52 (+1.7) |
-|VideoPose3D [4] | 82.55 | 85.71 | 53.35 |
+|VideoPose3D | 82.55 | 85.71 | 53.35 |
 |+ GPA | 66.07 (-16.5) | 90.87 (+5.2) | 60.07 (+6.7) |
 
 The distribution visualization before and after GPA.
@@ -94,11 +94,8 @@ If our work is useful for your research, please consider citing:
 }
 ```
 
-## Reference
-[1] Long Zhao, Xi Peng, Yu Tian, Mubbasir Kapadia, and Dimitris N Metaxas. Semantic graph convolutional networks for 3d human pose regression. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 3425–3435, 2019.
+## Projects based on PoseDA
 
-[2] Julieta Martinez, Rayat Hossain, Javier Romero, and James J Little. A simple yet effective baseline for 3d human pose estimation. In Proceedings of the IEEE international conference on computer vision, pages 2640–2649, 2017. 
-
-[3] Yujun Cai, Liuhao Ge, Jun Liu, Jianfei Cai, Tat-Jen Cham, Junsong Yuan, and Nadia Magnenat Thalmann. Exploiting spatial-temporal relationships for 3d pose estimation via graph convolutional networks. In Proceedings of the IEEE/CVF international conference on computer vision, pages 2272–2281, 2019.
-
-[4] Dario Pavllo, Christoph Feichtenhofer, David Grangier, and Michael Auli. 3d human pose estimation in video with temporal convolutions and semi-supervised training. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 7753–7762, 2019.
+> **PoSynDA: Multi-Hypothesis Pose Synthesis Domain Adaptation for Robust 3D Human Pose Estimation**  
+> Hanbing Liu, Jun-Yan He, Zhi-Qi Cheng, Wangmeng Xiang, Qize Yang, Wenhao Chai, Gaoang Wang, Xu Bao, Bin Luo, Yifeng Geng, Xuansong Xie   
+> _ACM MM 2023_
